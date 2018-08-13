@@ -1,0 +1,11 @@
+html,body,a,p,h1,h2,h3,h4,h5,h6,li,ol.ul,dd,dt,dl,from,input,select,i{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ol,ul,li{
+    list-style: none;
+}

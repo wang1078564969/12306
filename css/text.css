@@ -1,0 +1,31 @@
+
+.text{
+    width: 100%;
+}
+.p{
+    margin: 200px auto;
+}
+.p>:nth-child(1){
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.p>:nth-child(2){
+    text-align: center;
+    font-size: 25px;
+}
+.xiangxia{
+    opacity: 0.3;
+    width: 100px;
+    margin:400px auto;
+}
+.xiangxia>p{
+    text-align: center;
+}
+.xiangxia>i{
+    display: block;
+    text-align: center;
+}
+.xiangxia:hover{
+    opacity: 1;
+}
