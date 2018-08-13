@@ -3,15 +3,39 @@
     width: 1200px;
     margin: 0 auto;
 }
-.dancheng{
+/* .dancheng{
     width: 600px;
-}
+    height: 700px;
+} */
 .danchengname>p{
+    font-size: 30px;
     text-align: center;
 }
-.wangfan{
-    width: 600px;
+.danchengname{
+    margin-bottom: 100px;
 }
+/* .wangfan{
+    width: 600px;
+    height: 700px;
+} */
 .wangfanname>p{
     text-align: center;
+}
+.input-dancheng p{
+    margin: 30px auto;
+    text-align: center;
+}
+.input-dancheng label{
+    font-size: 20px;
+    text-align: center;
+}
+.input-dancheng  input{
+    width: 200px;
+    height: 30px;
+}
+.input-dancheng>form>p:nth-child(1) input,.input-dancheng>form>p:nth-child(2) input{
+    margin-left: 32px;
+}
+.input-dancheng>form>p:nth-child(3) input,.input-dancheng>form>p:nth-child(4) input{
+    margin-left: 10px;
 }

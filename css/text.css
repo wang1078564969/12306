@@ -17,7 +17,7 @@
 .xiangxia{
     opacity: 0.3;
     width: 100px;
-    margin:400px auto;
+    margin:350px auto 200px auto;
 }
 .xiangxia>a{
     display: block;
