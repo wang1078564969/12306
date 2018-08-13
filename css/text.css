@@ -19,7 +19,8 @@
     width: 100px;
     margin:400px auto;
 }
-.xiangxia>p{
+.xiangxia>a{
+    display: block;
     text-align: center;
 }
 .xiangxia>i{
