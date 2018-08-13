@@ -1,9 +1,17 @@
 .input{
+    display: flex;
+    width: 1200px;
     margin: 0 auto;
 }
 .dancheng{
-    width: 300px;
+    width: 600px;
+}
+.danchengname>p{
+    text-align: center;
 }
 .wangfan{
-    width: 300px;
+    width: 600px;
+}
+.wangfanname>p{
+    text-align: center;
 }
