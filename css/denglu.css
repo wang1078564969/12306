@@ -1,0 +1,36 @@
+body{
+    background: url(../images/denglu.jpg) no-repeat;
+}
+.one{
+    border-radius: 20px;
+    background: rgba(100, 100,100, 0.3);
+    width: 500px;
+    margin: 200px auto;
+}
+.logo{
+    
+    padding-top:10px;
+    justify-content: center;
+    display: flex;
+}
+.logo>img{
+    width: 40px;
+    height: 50px;
+}
+.logo>p{
+    margin-left: 10px;
+    font-size:30px;
+    line-height: 10px;
+}
+input{
+
+}
+form input{
+        width: 200px;
+    height: 30px;
+    border-radius: 5px; 
+    border:1px #b3afaf solid;
+}
+.yonghu{
+
+}
