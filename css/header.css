@@ -1,8 +1,8 @@
 .header{
     padding: 10px 0;
     width: 100%;
-    height: 200px;
-    background:linear-gradient(#1E90FF, rgba(255, 255, 255, 0));
+    height: 400px;
+    background:linear-gradient(rgb(55, 128, 177), rgba(255, 255, 255, 0));
 }
 .headernav{
     width: 1240px;

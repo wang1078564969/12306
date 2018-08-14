@@ -86,71 +86,118 @@
         <div class="input-z">
             <div class="dancheng">
                 <div class="danchengname">
-                    <p>单程</p>
-                    <i class="icon-jiantou_liebiaozhankai"></i>
+                    <a href="#">单程</a>
+                    <i class=""></i>
                 </div>
                 <div class="input-dancheng">
-                    <form action="#" method="post">
+                    <form action="#" method="post" id="dancehng">
                         <p>
-                            <label for="diqian">出发站&nbsp;&nbsp; :
-                                <input type="text" name="qidian" id="qidian" />
+                            <label for="qidian">出发站:
+                                <input type="search" name="qidian" id="qidian" required/>
                             </label>
                         </p>
                         <p>
-                            <label for="zhongdian">目的站&nbsp;&nbsp; :
-                                <input type="text" name="zhongdian" id="zhongdian" />
+                            <label for="zhongdian">目的站:
+                                <input type="search" name="zhongdian" id="zhongdian" required/>
                             </label>
                         </p>
                         <p>
                             <label for="shijian">出发时间:
-                                <input type="text" name="shijian" id="shijian" />
+                                <input type="date" name="shijian" id="shijian" required/>
                             </label>
                         </p>
-                        <p>
-                            <label for="leixing">乘车类型:
-                                <input type="text" name="leixing" id="leixing" />
+                        <p>乘车类型:
+                            <label for="g">G
+                                <input type="checkbox" name="g" id="g" value="g">
+                            </label>
+                            <label for="k">K
+                                <input type="checkbox" name="k" id="k" value="k">
+                            </label>
+                            <label for="d">D
+                                <input type="checkbox" name="d" id="d" value="d">
+                            </label>
+                            <label for="z">Z
+                                <input type="checkbox" name="z" id="z" value="z">
+                            </label>
+                            <label for="t">T
+                                <input type="checkbox" name="t" id="t" value="t">
                             </label>
                         </p>
                     </form>
+                    <div class="tijiaod">
+                        <p>
+                            <label for="putong">普通
+                                <input type="radio" checked name="tijiao" id="putong" form="dancheng ">
+                            </label>
+                            <label for="xuesheng">学生
+                                <input type="radio" name="tijiao" id="xuesheng" form="dancheng">
+                            </label>
+                        </p>
+                        <input type="text" form="dancheng">
+                    </div>
                 </div>
             </div>
             <div class="wangfan">
                 <div class="wangfanname">
-                    <p>往返</p>
-                    <i class="icon-jiantou_zuoyouqiehuan"></i>
+                    <a href="#">往返</a>
+                    <i class=""></i>
                 </div>
                 <div class="input-wangfan">
-                    <form action="#" method="post">
+                    <form action="#" method="post" id="wangfan">
                         <p>
                             <label for="chufa">出发站&nbsp;&nbsp; :
-                                <input type="text" name="chufa" id="chufa">
+                                <input type="search" name="chufa" id="chufa" required>
                             </label>
                         </p>
                         <p>
-                            <tabel for="mudi">目的站&nbsp;&nbsp; :
-                                <input type="text" name="mudi" id="mudi">
-                            </tabel>
+                            <label for="mudi">目的站&nbsp;&nbsp; :
+                                <input type="search" name="mudi" id="mudi" required>
+                            </label>
                         </p>
                         <p>
                             <label for="shijian2">出发时间:
-                                <input type="text" name="shijian2" id="shijian2">
+                                <input type="date" name="shijian2" id="shijian2" required>
                             </label>
                         </p>
                         <p>
                             <label for="fancheng">返程时间：
-                                <input type="text" name="fancheng" id="fancheng">
+                                <input type="date" name="fancheng" id="fancheng">
                             </label>
                         </p>
-                        <p>
-                            <label for="leixing2">乘车类型:
-                                <input type="text" name="leixing2" id="leixing2">
+                        <p>乘车类型:
+                            <label for="g">G
+                                <input type="checkbox" name="g" id="g" value="g">
+                            </label>
+                            <label for="k">K
+                                <input type="checkbox" name="k" id="k" value="k">
+                            </label>
+                            <label for="d">D
+                                <input type="checkbox" name="d" id="d" value="d">
+                            </label>
+                            <label for="z">Z
+                                <input type="checkbox" name="z" id="z" value="z">
+                            </label>
+                            <label for="t">T
+                                <input type="checkbox" name="t" id="t" value="t">
                             </label>
                         </p>
                     </form>
-            
+                    <div class="tijiaow">
+                        <p>
+                            <label for="putong">普通
+                                <input type="radio" checked name="tijiao" id="putong" form="wangfan">
+                            </label>
+                            <label for="xuesheng">学生
+                                <input type="radio" name="tijiao" id="xuesheng" form="wangfan">
+                            </label>
+                        </p>
+                        <input type="text" form="wangfan">
+                    </div>
                 </div>
             </div>
         </div>
+        
+        
     </div>
 </body>
 </html>

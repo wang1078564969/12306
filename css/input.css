@@ -2,49 +2,100 @@
     width: 100%;  
 }
 .input-z{
-    display: flex;
-    justify-content: center;
+    height: 1000px;
+    position: relative;
 }
 .dancheng{
-    margin-right: 200px;
+    top: 200px;
+    left: 400px;
+    position: absolute;
 }
-.danchengname>p{
+.danchengname>a{
+    display: block;
     font-size: 30px;
     text-align: center;
 }
 .danchengname{
-    margin: 0 auto 100px auto;
+   margin-bottom: 100px;
+}
+dancheng:hover>.input-dancheng{
+    display: block;
 }
 .input-dancheng p{
     font-size: 20px;
-    margin: 30px auto;
-    text-align: center;
+    margin: 30px 0;
 }
 .input-dancheng label{
-    text-align: center;
+    /* text-align: center; */
 }
-.input-dancheng  input{
+.input-dancheng>form input{
     width: 200px;
     height: 30px;
+    border-radius: 5px; 
+    border:1px #b3afaf solid;
 }
-.wangfanname>p{
+.input-dancheng>form>p:last-child input{
+    height: 18px;
+    width: 20px;
+}
+.input-dancheng>.tijiaod{
+    position: absolute;
+    top: 500px;
+    left: 400px;
+}
+.tijiaod input{
+    border-radius: 5px; 
+    border:1px #b3afaf solid;
+    height: 16px;
+}
+.wangfan{
+    top: 200px;
+    right: 400px;
+    position: absolute;
+}
+.wangfanname>a{
+    display: block;
     font-size: 30px;
     text-align: center;
 }
 .wangfanname{
     margin-bottom:100px;
 }
+.wangfan:hover>.input-wangfan{
+    display: block;
+}
+.wangfan:hover>.input-dancheng{
+    display: none;
+}
+/* .input-wangfan{
+    display: none;
+} */
 .input-wangfan p{
     font-size: 20px;
-    margin: 30px auto;
-    text-align: center;
+    margin: 30px 0;
 }
 .input-wangfan label{
-    text-align: center;
+    /* text-align: center; */
 }
-.input-wangfan   input{
+.input-wangfan>form input{
     width: 200px;
     height: 30px;
+    border-radius: 5px; 
+    border:1px #b3afaf solid;
+}
+.input-wangfan>form>p:last-child input{
+    height: 18px;
+    width: 20px;
+}
+.input-wangfan>.tijiaow{
+    position: absolute;
+    top: 500px;
+    right: 400px;
+}
+.tijiaow input{
+    height: 16px;
+    border-radius: 5px; 
+    border:1px #b3afaf solid;
 }
 
 
