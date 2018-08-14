@@ -1,30 +1,36 @@
-/* .beij{
-    height: 3000px;
-    background-image: url(../images/img_0363.jpg);
+.beij{
+    height: 1280px;
+    background-image: url(../images/train.jpg);
+    background-image: center center;
     width: 100%;
     position: absolute;
-    top: -100px;
-    z-index: -1;
-} */
+    top: 0;
+    z-index: -999;
+}
 .text{ 
     width: 100%;
 }
 .p{
-    margin: 100px auto;
+    color: brown;
+    margin: 350px auto;
 }
 .p>:nth-child(1){
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    line-height:2em;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
 }
 .p>:nth-child(2){
+    line-height:1.5em;
     text-align: center;
     font-size: 25px;
 }
 .xiangxia{
     opacity: 0.3;
     width: 100px;
-    margin:350px auto 200px auto;
+    margin:350px auto 150px auto;
 }
 .xiangxia>a{
     display: block;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/text.css">
     <link rel="stylesheet" href="./css/input.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/font/iconfont.css">
 </head>
@@ -82,8 +83,11 @@
             <i class="fa fa-chevron-down fa-2x"></i>
         </div>
     </div>
+
     <div class="input">
         <div class="input-z">
+                <div class="wangfansan"></div>
+                <div class="danchengsan"></div>
             <div class="dancheng">
                 <div class="danchengname">
                     <a href="#">单程</a>
@@ -92,12 +96,12 @@
                 <div class="input-dancheng">
                     <form action="#" method="post" id="dancehng">
                         <p>
-                            <label for="qidian">出发站:
+                            <label for="qidian">出发站&nbsp;&nbsp; :
                                 <input type="search" name="qidian" id="qidian" required/>
                             </label>
                         </p>
                         <p>
-                            <label for="zhongdian">目的站:
+                            <label for="zhongdian">目的站&nbsp;&nbsp; :
                                 <input type="search" name="zhongdian" id="zhongdian" required/>
                             </label>
                         </p>
@@ -124,19 +128,9 @@
                             </label>
                         </p>
                     </form>
-                    <div class="tijiaod">
-                        <p>
-                            <label for="putong">普通
-                                <input type="radio" checked name="tijiao" id="putong" form="dancheng ">
-                            </label>
-                            <label for="xuesheng">学生
-                                <input type="radio" name="tijiao" id="xuesheng" form="dancheng">
-                            </label>
-                        </p>
-                        <input type="text" form="dancheng">
-                    </div>
                 </div>
             </div>
+
             <div class="wangfan">
                 <div class="wangfanname">
                     <a href="#">往返</a>
@@ -160,7 +154,7 @@
                             </label>
                         </p>
                         <p>
-                            <label for="fancheng">返程时间：
+                            <label for="fancheng">返程时间:
                                 <input type="date" name="fancheng" id="fancheng">
                             </label>
                         </p>
@@ -182,22 +176,34 @@
                             </label>
                         </p>
                     </form>
-                    <div class="tijiaow">
-                        <p>
-                            <label for="putong">普通
-                                <input type="radio" checked name="tijiao" id="putong" form="wangfan">
-                            </label>
-                            <label for="xuesheng">学生
-                                <input type="radio" name="tijiao" id="xuesheng" form="wangfan">
-                            </label>
-                        </p>
-                        <input type="text" form="wangfan">
-                    </div>
                 </div>
             </div>
         </div>
-        
-        
+        <div class="tijiao">
+            <p>
+                <label for="putong">普通
+                    <input type="radio" checked name="tijiao" id="putong" form="wangfan">
+                </label>
+                <label for="xuesheng">学生
+                    <input type="radio" name="tijiao" id="xuesheng" form="wangfan">
+                </label>
+            </p>
+            <label for="anniu">提交
+                <input type="image" src="./images/12.png" form="wangfan"  name="submit" id="anniu"></label>  
+        </div>   
+    </div>
+    <div class="footer">
+        <div class="footer-beij"></div>
+        <div class="footer-beijing"></div>
+        <div class="footer-bor">
+            <div class="a">
+                <a href="">关于我们</a>
+                <i></i>
+                <a href="">网站声明</a>
+            </div>
+            <p>版权所有 © 2008-2018 中国铁路信息技术中心 中国铁道科学研究院<br>
+                 京ICP备15003716号-3 | 京ICP证150437号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+        </div>
     </div>
 </body>
 </html>
