@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/font/iconfont.css">
 </head>
 <body>
+    <!-- 头部开始 -->
     <div class="header">
         <div class="headernav">
             <div class="logo">
@@ -21,6 +22,7 @@
                 <a href="#">中国铁路客户服务中心</a>
             </div>
             <div class="headernavs">
+                <!-- 右上角导航开始 -->
                 <div class="navs">
                     <ul>
                         <li>服务热线:12306</li>
@@ -39,6 +41,8 @@
                         </li>
                     </ul>
                 </div>
+                <!-- 右上角导航结束 -->
+                <!-- 下面一行导航开始 -->
                 <div class="nav">
                     <ul> 
                         <li>
@@ -67,11 +71,13 @@
                         </li>
                     </ul>
                 </div>
+                <!-- 下面一行导航结束 -->
             </div>
         </div>
-       
     </div>
-    <div class="beij"></div>
+    <!-- 头部结束 -->
+    <div class="beij"></div><!--背景图 -->
+    <!-- 中间文字开始 -->
     <div class="text">
         <div class="p">
             <p>12306 中国铁路客户服务中心</p>
@@ -83,18 +89,20 @@
             <i class="fa fa-chevron-down fa-2x"></i>
         </div>
     </div>
-
+    <!-- 中间文字结束 -->
+    <!-- input输入查询开始 -->
     <div class="input">
         <div class="input-z">
-                <div class="wangfansan"></div>
-                <div class="danchengsan"></div>
+            <div class="wangfansan"></div><!--单程三角白色遮罩 -->
+            <div class="danchengsan"></div><!--往返三角白色遮罩 -->
+            <!-- 单程开始 -->
             <div class="dancheng">
                 <div class="danchengname">
                     <a href="#">单程</a>
                     <i class=""></i>
                 </div>
                 <div class="input-dancheng">
-                    <form action="#" method="post" id="dancehng">
+                    <form action="#" method="post" id="dancheng">
                         <p>
                             <label for="qidian">出发站&nbsp;&nbsp; :
                                 <input type="search" name="qidian" id="qidian" required/>
@@ -130,7 +138,8 @@
                     </form>
                 </div>
             </div>
-
+            <!-- 单程结束 -->
+            <!-- 往返开始 -->
             <div class="wangfan">
                 <div class="wangfanname">
                     <a href="#">往返</a>
@@ -178,8 +187,22 @@
                     </form>
                 </div>
             </div>
+            <!-- 往返结束 -->
         </div>
-        <div class="tijiao">
+        <!-- 提交按钮 -->
+        <div class="tijiao"><!--单程提交 -->
+            <p>
+                <label for="putong">普通
+                    <!-- <input type="radio" checked name="tijiao" id="putong" form="dancheng"> -->
+                </label>
+                <label for="xuesheng">学生
+                    <input type="radio" name="tijiao" id="xuesheng" form="dancheng">
+                </label>
+            </p>
+            <label for="anniu">提交
+                <input type="image" src="./images/12.png" form="dancheng" name="submit" id="anniu"></label>
+        </div>
+        <div class="tijiao"><!--往返提交 -->
             <p>
                 <label for="putong">普通
                     <input type="radio" checked name="tijiao" id="putong" form="wangfan">
@@ -190,8 +213,11 @@
             </p>
             <label for="anniu">提交
                 <input type="image" src="./images/12.png" form="wangfan"  name="submit" id="anniu"></label>  
-        </div>   
+        </div>
+        <!-- 提交结束    -->
     </div>
+    <!-- input提交查询结束 -->
+    <!-- 尾部 -->
     <div class="footer">
         <div class="footer-beij"></div>
         <div class="footer-beijing"></div>
@@ -206,4 +232,5 @@
         </div>
     </div>
 </body>
+<!-- 还没有完善  头部有弹出框没做  提交部分 遮罩没有 -->
 </html>

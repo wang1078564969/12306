@@ -18,7 +18,7 @@
     position:absolute;
     width: 0;
     height: 0;
-    border-bottom: 300px solid red;
+    border-bottom: 300px solid  brown;
     border-right: 1920px solid  transparent;
 }
 .footer-beijing{
@@ -27,6 +27,6 @@
     position:absolute;
     width: 0;
     height: 0;
-    border-bottom: 300px solid red;
+    border-bottom: 300px solid brown;
     border-left: 1920px solid  transparent;
 }
