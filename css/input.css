@@ -1,24 +1,18 @@
 .input{
-    width: 1200px;
-    height: 800px;
-    margin: 0 auto;  
+    width: 100%;
+    min-width: 1300px;
+    height: 700px;
+    margin: -30px auto 0 auto; 
+    background: url(../images/bai.png) no-repeat top center;
 }
 .input-z{
+    top:50px;
     justify-content: center;
     display: flex;
-    position: relative;
+    position: relative; 
 }
 .dancheng{
     margin-right: 100px;
-}
-.danchengsan{
-    z-index: -1;
-    top:-130px;
-    position:absolute;
-    width: 0;
-    height: 0;
-    border-bottom: 300px solid #ffffff;
-    border-right: 1920px solid  transparent;
 }
 .danchengname>a{
     display: block;
@@ -26,17 +20,14 @@
     text-align: center;
 }
 .danchengname{
-   margin-bottom: 150px;
+   margin-bottom: 130px;
 }
-dancheng:hover>.input-dancheng{
+/* dancheng:hover>.input-dancheng{
     display: block;
-}
+} */
 .input-dancheng p{
     font-size: 20px;
     margin: 30px 0;
-}
-.input-dancheng label{
-    /* text-align: center; */
 }
 .input-dancheng>form input{
     width: 200px;
@@ -51,38 +42,26 @@ dancheng:hover>.input-dancheng{
 .wangfan{
     margin-left: 100px;
 }
-.wangfansan{
-    z-index: -1;
-    top:-130px;
-    position:absolute;
-    width: 0;
-    height: 0;
-    border-bottom: 300px solid #ffffff;
-    border-left: 1920px solid  transparent;
-}
 .wangfanname>a{
     display: block;
     font-size: 30px;
     text-align: center;
 }
 .wangfanname{
-    margin-bottom:150px;
+    margin-bottom:130px;
 }
-.wangfan:hover>.input-wangfan{
+/* .wangfan:hover>.input-wangfan{
     display: block;
 }
 .wangfan:hover>.input-dancheng{
     display: none;
 }
-/* .input-wangfan{
+.input-wangfan{
     display: none;
 } */
 .input-wangfan p{
     font-size: 20px;
     margin: 30px 0;
-}
-.input-wangfan label{
-    /* text-align: center; */
 }
 .input-wangfan>form input{
     width: 200px;
@@ -96,7 +75,7 @@ dancheng:hover>.input-dancheng{
 }
 .tijiao{
     width: 130px;
-    margin: 40px auto;
+    margin: 120px auto 0 auto;
 }
 .tijiao>p{
     width: 104px;

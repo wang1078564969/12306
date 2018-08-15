@@ -1,32 +1,18 @@
 .footer{
+    height: 250px;;
     width: 100%;
-    position: relative;
+    min-width: 1300px;;
+    margin: 0 auto;
+    overflow: scroll;
+    background: url(../images/di.png) top center;
 }
 .footer-bor{
     text-align: center;
     color:#404040;
     width: 550px;
-    margin: 0 auto;
+    margin: 153px auto 50px auto;
 }
 .footer-bor>.a>a{
     line-height: 3em;
     font-size: 15px;
-}
-.footer-beij{
-    z-index: -1;
-    top:-180px;
-    position:absolute;
-    width: 0;
-    height: 0;
-    border-bottom: 300px solid  brown;
-    border-right: 1920px solid  transparent;
-}
-.footer-beijing{
-    z-index: -2;
-    top:-180px;
-    position:absolute;
-    width: 0;
-    height: 0;
-    border-bottom: 300px solid brown;
-    border-left: 1920px solid  transparent;
 }

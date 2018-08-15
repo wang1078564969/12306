@@ -1,14 +1,15 @@
 .beij{
     height: 1280px;
-    background-image: url(../images/train.jpg);
-    background-image: center center;
+    background: url(../images/train.jpg) no-repeat  top center;
     width: 100%;
+    min-width: 1300px;
     position: absolute;
     top: 0;
     z-index: -999;
 }
 .text{ 
-    width: 100%;
+    width: 1300px;
+    margin: 0 auto;
 }
 .p{
     color: brown;

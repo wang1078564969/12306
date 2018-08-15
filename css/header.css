@@ -1,8 +1,11 @@
-
+body{
+    width: 100%;
+    min-width: 1300px;
+    /* overflow:scroll; */
+}
 .header{
     padding: 10px 0;
     width: 100%;
-    
     /* background:linear-gradient(rgb(55, 128, 177), rgba(255, 255, 255, 0)); */
 }
 .headernav{
