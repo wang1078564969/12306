@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./command.css">
+    <link rel="stylesheet" href="./css/command.css">
     <link rel="stylesheet" href="./css/denglu.css">
-
-    <title>Document</title>
+    <link rel="icon" href="./images/u41.png" type="image/x-icon" sizes="16px">
+    <title>12306登陆</title>
 </head>
 <body>
     <div class="one">
@@ -18,27 +18,39 @@
         <div class="input">
             <form action="#" method="post" id="denglu">
                 <div class="yonghu">
-                    <p><label for="yonghu">登录名：
-                        <input type="text" name="yonghu" id="yonghu" >
-                    </label></p>
+                    <p><label for="yonghu">
+                        <input type="text" name="yonghu" id="yonghu" placeholder=" 用户名">
+                    </label>
+                </p>
                 </div>
                 <div class="mima">
-                    <p><label for="mima">密码&nbsp;&nbsp;&nbsp; ：
-                        <input type="password" name="mima" id="mima">
-                    </label></p>
-                </div>
-                <div class="yanzheng">
+                    <p><label for="mima">
+                        <input type="password" name="mima" id="mima" placeholder=" 密码">
+                    </label>
                     
+                </p>
+                </div>
+                <a href="#">忘记用户名/密码</a>
+                <div class="yanzheng">
+                    <!-- <p>验 证 :</p> -->
+                    <div class="kuang"></div>
                 </div>
                 <div class="anniu">
-                    <input type="text">
-                    <a href="#"></a>
+                    <input type="submit" value="登 陆" form="denglu">
+                    <div class="zhuce">
+                        <a href="./12306zhuce.html">注 册</a>
+                    </div>
                 </div>
             </form>
         </div>
     </div>
     <div class="zhuyi">
-        <p></p>
+        <pre>
+温馨提示：1、12306.cn网站自3月16日起启用图形验证码
+        2、12306.cn网站每日06:00~23:00提供服务 
+        3、在12306.cn网站购票、改签和退票须不晚于开车前30分钟；
+        办理“变更到站”业务时，请不晚于开车前48小时。
+        </pre>
     </div>
 </body>
 </html>

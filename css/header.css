@@ -31,7 +31,7 @@
 }
 .navs>ul>li{
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     float: right;
 }
 .navs>ul>li:nth-child(1){
@@ -47,10 +47,10 @@
 .navs>ul>li:nth-child(3){
     width: 3em;
 }
-.navs>ul>li:nth-child(5){
+.navs>ul>li:nth-child(6){
     width: 4em;
 }
-.navs>ul>li:nth-child(6){
+.navs>ul>li:nth-child(7){
     width: 20em;
 }
 .navs>ul::after{
@@ -58,7 +58,7 @@
     content: "";
     clear: both;
 }
-.navs>ul>li:nth-child(3)>a:hover,.navs>ul>li:nth-child(4)>a:hover{
+.navs>ul>li:nth-child(3)>a:hover,.navs>ul>li:nth-child(5)>a:hover{
     color:#f74461;
 }
 .nav>ul>li{
