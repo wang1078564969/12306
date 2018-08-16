@@ -4,8 +4,10 @@ body{
     /* overflow:scroll; */
 }
 .header{
+
     padding: 10px 0;
     width: 100%;
+   
     /* background:linear-gradient(rgb(55, 128, 177), rgba(255, 255, 255, 0)); */
 }
 .headernav{
@@ -64,6 +66,10 @@ body{
 .navs>ul>li:nth-child(3)>a:hover,.navs>ul>li:nth-child(5)>a:hover{
     color:#f74461;
 }
+/* .nav{
+        position: sticky;
+    top: 0;
+} */
 .nav>ul>li{
     font-size: 17px;  
     text-align: center;  
