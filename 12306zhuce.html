@@ -20,15 +20,77 @@
         <div class="one">
             <form action="#" name="zhuce">
                 <div class="zhanghu">
-                
-                </div>
-                
+                    <p>
+                        <label for="yonghuming">用 户 名 ：
+                            <input type="text" required name="yonghuming" id="yonghuming" >
+                        </label>
+                    </p>
+                    <p>
+                        <label for="denglumima">登录 密码 ：
+                            <input type="password" required name="denglumima" id="denglumima" minlength="6" maxlength="20">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="qierenmima">确认 密码 ；
+                            <input type="password"  required name="qierenmima" id="qierenmima" minlength="6" maxlength="20">
+                        </label>
+                    </p>
                 <div class="xinxi">
-                
+                    <p>
+                        <label for="xingming">姓 名 ：
+                            <input type="text" required name="xingming" id="xingming">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="id">身份证类型：
+                            <select name="id" id="id">
+                                <option value="二代身份证">二代身份证</option>
+                                <option valxue="港澳通行证">港澳通行证</option>
+                                <option value="台湾通行证">台湾通行证</option>
+                                <option value="护照">护照</option>
+                            <select>
+                        </label>
+                    </p>
+                    <p>
+                        <label for="idn">身份证号码：
+                            <input type="text" required name="idn" id="idn">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="">旅客 类型 ：
+                            <select name="lklx" id="lklx">
+                                <option value="成人">成人</option>
+                                <option value="儿童">儿童</option>
+                                <option value="学生">学生</option>
+                                <option value="残疾军人，伤残人民警察">残疾军人，伤残人民警察</option>
+                            </select>
+                        </label>
+                    </p>
                 </div>
                 <div class="tongxun">
-
+                    <p>
+                        <label for="call">手机 号码 ：
+                            <input type="tel" required name="call" id="call">
+                        </label>
+                    </p>
+                    <p>
+                        <label for="email">邮 箱 ：
+                            <input type="email" required name="email" id="email">
+                        </label>
+                    </p>
                 </div>
+                <p>
+                    <label for="zunshou" >
+                        <input type="checkbox" required name="zunshou" id="zunshou">我已阅读并同意遵守
+                    </label>
+                    <a href="#">《中国铁路客户服务中心网站服务条款》</a>
+                </p>
+                <p>
+                    <label for="bu">
+                        <input type="submit" value="下一步" name="bu" id="bu">
+                    </label>
+                </p>
+                <a href="#"></a>
             </form>
         </div>
     </div>

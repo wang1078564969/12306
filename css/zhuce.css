@@ -1,6 +1,11 @@
+body{
+    background-color: #f0f0f0;
+}
 .logo{
+    width: 1000px;
+    margin: 40px auto 30px auto;
     padding-top:20px;
-    justify-content: center;
+    /* justify-content: center; */
     display: flex;
 }
 .logo>img{
@@ -12,3 +17,37 @@
     font-size:30px;
     line-height: 2em;
 }
+.zhuce{
+    background-color:#ffffff;   
+    width: 1000px;
+    margin: 0 auto;
+}
+.one p{
+    text-align: center;
+}
+.one p::before{
+    content: "*";
+    color:red;
+}
+.one input{
+    margin :30px 5px 0px 5px;
+    font-size: 16px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+.one select{
+    margin-top :30px;
+    font-size: 16px;
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+#zunshou{
+    width: 20px;
+    height: 15px;
+}
+#bu
