@@ -3,8 +3,7 @@ body{
 }
 .logo{
     width: 1000px;
-    margin: 40px auto 30px auto;
-    padding-top:20px;
+    margin: 40px auto ;
     /* justify-content: center; */
     display: flex;
 }
@@ -17,39 +16,101 @@ body{
     font-size:30px;
     line-height: 2em;
 }
+.one>p{
+    font-size: 30px;
+}
 .zhuce{
+    padding-top:20px;
     background-color:#ffffff;   
     width: 1000px;
     margin: 0 auto;
 }
+.zhuce>p{
+    font-size: 30px;
+    text-align: center;
+}
 .one p{
     text-align: center;
 }
-.one p::before{
+/* .zhanghu>p::before,.xinxi>p::before,.tongxun>p::before{
     content: "*";
     color:red;
+} */
+.one span{
+    display:inline-block;
+    width: 8em;
 }
-.one input{
+input::placeholder{
+            color:#c0c0c0;
+        }
+.one input{ 
     margin :30px 5px 0px 5px;
     font-size: 16px;
     width: 250px;
     height: 40px;
-    border-radius: 10px;
-    border: 1px solid #000000;
+    border: 1px solid #c0c0c0;
 }
 .one select{
-    margin-top :30px;
+    font-size: 16px;
+    width: 250px;
+    height: 38px;
+    background-color: #ffffff;
+    border: 0px solid #a1a1a1;
+}
+.span{
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#span{
+    text-align: center;
+    line-height: 38px;
+    width: 8em;
+    height: 40px;
+    display: block;
+}
+.select{
+    margin-left: 5px;
+    display: inline-block;
     font-size: 16px;
     width: 250px;
     height: 40px;
-    border-radius: 10px;
     background-color: #ffffff;
-    border: 1px solid #000000;
+    border: 1px solid #c0c0c0;
+}
+form>p:nth-last-child(3){
+    font-size: 10px;
+}
+form>p:nth-last-child(3)>a{
+    color:#f4614f;
 }
 #zunshou{
     width: 20px;
     height: 15px;
 }
 #bu{
-    
+    color: #f0f0f0  ;
+    background-color: #f4614f;
+    margin-bottom: 50px;
+}
+.footer{
+    opacity: 0.9;
+    height: 250px;;
+    width: 100%;
+    min-width: 1300px;;
+    margin: -110px auto;
+    overflow: scroll;
+    background: url(../images/di.png) top center;
+}
+.footer-bor{
+    text-align: center;
+    color:#404040;
+    width: 550px;
+    margin: 155px auto 0 auto;
+}
+.a>a{
+    color:#404040;
+    line-height: 2em;
+    font-size: 15px;
 }

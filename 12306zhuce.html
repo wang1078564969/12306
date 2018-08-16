@@ -10,88 +10,98 @@
     <title>12306注册</title>
 </head>
 <body>
-    <div class="one">
+    <div class="one1">
         <div class="logo">
             <img src="./images/u41.png" alt="">
             <p>中国铁路客户服务中心</p>
         </div>
     </div>
     <div class="zhuce">
+        <p>注册</p>
         <div class="one">
             <form action="#" name="zhuce">
-                <div class="zhanghu">
                     <p>
-                        <label for="yonghuming">用 户 名 ：
-                            <input type="text" required name="yonghuming" id="yonghuming" >
+                        <label for="yonghuming"><span>用 户 名 ：</span>
+                            <input type="text" required name="yonghuming" id="yonghuming" minlength="6" maxlength="20" placeholder=" 用户名设置成功后不可修改">
                         </label>
                     </p>
                     <p>
-                        <label for="denglumima">登录 密码 ：
-                            <input type="password" required name="denglumima" id="denglumima" minlength="6" maxlength="20">
+                        <label for="denglumima"><span>登录密码 ：</span>
+                            <input type="password" required name="denglumima" id="denglumima" minlength="6" maxlength="20" placeholder=" 6-20位字母、数字或符号">
                         </label>
                     </p>
                     <p>
-                        <label for="qierenmima">确认 密码 ；
-                            <input type="password"  required name="qierenmima" id="qierenmima" minlength="6" maxlength="20">
-                        </label>
-                    </p>
-                <div class="xinxi">
-                    <p>
-                        <label for="xingming">姓 名 ：
-                            <input type="text" required name="xingming" id="xingming">
+                        <label for="qierenmima"><span>确认密码 ：</span>
+                            <input type="password"  required name="qierenmima" id="qierenmima" minlength="6" maxlength="20" placeholder=" 再次输入您的密码">
                         </label>
                     </p>
                     <p>
-                        <label for="id">身份证类型：
+                        <label for="xingming"><span>姓 名 ：</span>
+                            <input type="text" required name="xingming" id="xingming" placeholder=" 请输入您的名字">
+                        </label>
+                    </p>
+                    <div class="span">
+                        <span id="span">身份证类型：</span>
+                        <div class="select">
                             <select name="id" id="id">
                                 <option value="二代身份证">二代身份证</option>
                                 <option valxue="港澳通行证">港澳通行证</option>
                                 <option value="台湾通行证">台湾通行证</option>
                                 <option value="护照">护照</option>
                             <select>
-                        </label>
+                        </div>
+                    </div> 
                     </p>
                     <p>
-                        <label for="idn">身份证号码：
-                            <input type="text" required name="idn" id="idn">
+                        <label for="idn"><span>身份证号码：</span>
+                            <input type="text" required name="idn" id="idn" placeholder=" 请输入您的证件号码">
                         </label>
                     </p>
-                    <p>
-                        <label for="">旅客 类型 ：
+                    <div class="span">
+                        <span id="span">旅客类型 ：</span>
+                        <div class="select">
                             <select name="lklx" id="lklx">
                                 <option value="成人">成人</option>
                                 <option value="儿童">儿童</option>
                                 <option value="学生">学生</option>
                                 <option value="残疾军人，伤残人民警察">残疾军人，伤残人民警察</option>
                             </select>
-                        </label>
-                    </p>
-                </div>
-                <div class="tongxun">
+                        </div>
+                    </div>     
                     <p>
-                        <label for="call">手机 号码 ：
-                            <input type="tel" required name="call" id="call">
+                        <label for="call"><span>手机号码 ：</span>
+                            <input type="tel" required name="call" id="call" placeholder=" 请输入您的手机号码">
                         </label>
                     </p>
                     <p>
-                        <label for="email">邮 箱 ：
-                            <input type="email" required name="email" id="email">
+                        <label for="email"><span>邮 箱 ：</span>
+                            <input type="email" required name="email" id="email" placeholder=" 请正确输入邮箱地址">
                         </label>
                     </p>
-                </div>
-                <p>
-                    <label for="zunshou" >
-                        <input type="checkbox" required name="zunshou" id="zunshou">我已阅读并同意遵守
-                    </label>
-                    <a href="#">《中国铁路客户服务中心网站服务条款》</a>
-                </p>
-                <p>
-                    <label for="bu">
-                        <input type="submit" value="下一步" name="bu" id="bu">
-                    </label>
-                </p>
-                <a href="#"></a>
+                    <p>
+                        <label for="zunshou" >
+                            <input type="checkbox" required name="zunshou" id="zunshou">我已阅读并同意遵守
+                        </label>
+                        <a href="#">《中国铁路客户服务中心网站服务条款》</a>
+                    </p>
+                    <p>
+                        <label for="bu">
+                            <input type="submit" value="下一步" name="bu" id="bu">
+                        </label>
+                    </p>
+                    <a href="#"></a>
             </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-bor">
+            <div class="a">
+                <a href="">关于我们</a>
+                <i></i>
+                <a href="">网站声明</a>
+            </div>
+            <p>版权所有 © 2008-2018 中国铁路信息技术中心 中国铁道科学研究院<br> 京ICP备15003716号-3 | 京ICP证150437号&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
         </div>
     </div>
 </body>
