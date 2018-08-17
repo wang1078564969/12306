@@ -1,4 +1,5 @@
 body{
+    
     width: 100%;
     min-width: 1300px;
     /* overflow:scroll; */
@@ -11,8 +12,12 @@ body{
     /* background:linear-gradient(rgb(55, 128, 177), rgba(255, 255, 255, 0)); */
 }
 .headernav{
+    color: #242424;
     width: 1240px;
     margin: 0 auto;
+}
+.header a{
+    color: #242424;
 }
 .logo {
     margin-top: 10px;

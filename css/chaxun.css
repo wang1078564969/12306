@@ -1,0 +1,58 @@
+body{
+    background-color: #f0f0f0;
+}
+.header{
+    color: #242424;
+    background: #ffffff;
+    height: 90px;
+}
+.header a{
+    color: #242424;
+}
+.see{
+    width: 100%;
+    height: 1000px;
+}
+.seeone{
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    display: flex;
+    margin: 30px auto;
+}
+.seeone input{
+    border:1px solid #f0f0f0;
+    border-radius: 5px;
+    width: 100px;
+    height: 33px;
+}
+.seeone>div{
+    margin-left: 20px;
+}
+/* .see-left{
+    margin-right: 30px;
+}
+.see-right{
+    margin-left: 30px;
+} */
+.see-left input,.see-right input{
+    width:17px;
+    height:17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+
+}
