@@ -2,6 +2,7 @@ body{
     background-color: #f0f0f0;
 }
 .header{
+    box-shadow: 0px 0px 15px 0px #c8c8c8;
     color: #242424;
     background: #ffffff;
     height: 90px;
@@ -14,6 +15,10 @@ body{
     height: 1000px;
 }
 .seeone{
+    box-shadow: 0px 0px 15px 0px #c8c8c8;
+    border-radius: 10px;
+    height: 100px;
+    background: #ffffff;
     align-items: center;
     justify-content: center;
     width: 1200px;
@@ -21,6 +26,7 @@ body{
     margin: 30px auto;
 }
 .seeone input{
+    margin: 5px auto;
     border:1px solid #f0f0f0;
     border-radius: 5px;
     width: 100px;
