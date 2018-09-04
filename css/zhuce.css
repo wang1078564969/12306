@@ -96,18 +96,17 @@ form>p:nth-last-child(3)>a{
 }
 .footer{
     opacity: 0.9;
-    height: 250px;;
+    height: 250px;
     width: 100%;
-    min-width: 1300px;;
-    margin: -110px auto;
-    overflow: scroll;
-    background: url(../images/di.png) top center;
+    min-width: 1300px;
+    margin:0 auto;
+    background: url(../images/di.png) top center no-repeat;
 }
 .footer-bor{
+    padding-top: 155px;
+    margin:0 auto;
     text-align: center;
     color:#404040;
-    width: 550px;
-    margin: 155px auto 0 auto;
 }
 .a>a{
     color:#404040;
