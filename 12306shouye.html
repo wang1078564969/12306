@@ -16,7 +16,16 @@
     <script src="./js/jquery-3.3.1.js"></script>
     <script>
         $(function(){
-            
+             $('.danchengname').mouseenter(function () {
+                $('#input').css('backgroundImage', 'url(./images/2.png)');
+                $('.input-wangfan').hide();
+                $('.input-dancheng').show();
+            })
+            $('.wangfanname').mouseenter(function () {
+                $('#input').css({ 'backgroundImage': 'url(./images/1.png)' });
+                $('.input-wangfan').show();
+                $('.input-dancheng').hide();
+            })  
         })
     </script>
 </head>
@@ -238,15 +247,3 @@
 </body>
 <!-- 还没有完善  头部有弹出框没做  提交部分 遮罩没有 -->
 </html>
-<script>
-    $('.danchengname').mouseenter(function () {
-        $('#input').css('backgroundImage', 'url(./images/2.png)');
-        $('.input-wangfan').hide();
-        $('.input-dancheng').show();
-        })
-    $('.wangfanname').mouseenter(function () {
-        $('#input').css({'backgroundImage':'url(./images/1.png)'});
-        $('.input-wangfan').show();
-        $('.input-dancheng').hide();
-        })  
-</script>
