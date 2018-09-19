@@ -1,6 +1,4 @@
 .beij{
-    height: 1280px;
-    background: url(../images/train.jpg) no-repeat  top center;
     width: 100%;
     min-width: 1300px;
     position: absolute;
@@ -31,7 +29,7 @@
 .xiangxia{
     opacity: 0.3;
     width: 100px;
-    margin:350px auto 150px auto;
+    margin:350px auto 0 auto;
 }
 .xiangxia>a{
     display: block;

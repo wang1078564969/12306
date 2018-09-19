@@ -13,6 +13,12 @@
     <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/font/iconfont.css">
     <link rel="icon" href="./images/u41.png" type="image/x-icon" sizes="16px">
+    <script src="./js/jquery-3.3.1.js"></script>
+    <script>
+        $(function(){
+            
+        })
+    </script>
 </head>
 <body>
     <!-- 头部开始 -->
@@ -78,7 +84,6 @@
         </div>
     </div>
     <!-- 头部结束 -->
-    <div class="beij"></div><!--背景图 -->
     <!-- 中间文字开始 -->
     <div class="text">
         <div class="p">
@@ -93,14 +98,20 @@
     </div>
     <!-- 中间文字结束 -->
     <!-- input输入查询开始 -->
-    <div class="input">
+    <div class="input" id="input">
+        <div class="name">
+            <div class="danchengname">
+                <p>单 程</p>
+                <i class=""></i>
+            </div>
+            <div class="wangfanname">
+                <p>往 返</p>
+                <i class=""></i>
+            </div>
+            
+        </div>
         <div class="input-z">
             <!-- 单程开始 -->
-            <div class="dancheng">
-                <div class="danchengname">
-                    <a href="#">单 程</a>
-                    <i class=""></i>
-                </div>
                 <div class="input-dancheng">
                     <form action="#" method="post" id="dancheng">
                         <p>
@@ -137,14 +148,10 @@
                         </p>
                     </form>
                 </div>
-            </div>
+            
             <!-- 单程结束 -->
             <!-- 往返开始 -->
-            <div class="wangfan">
-                <div class="wangfanname">
-                    <a href="#">往 返</a>
-                    <i class=""></i>
-                </div>
+
                 <div class="input-wangfan">
                     <form action="#" method="post" id="wangfan">
                         <p>
@@ -186,7 +193,6 @@
                         </p>
                     </form>
                 </div>
-            </div>
             <!-- 往返结束 -->
         </div>
         <!-- 提交按钮 -->
@@ -232,3 +238,15 @@
 </body>
 <!-- 还没有完善  头部有弹出框没做  提交部分 遮罩没有 -->
 </html>
+<script>
+    $('.danchengname').mouseenter(function () {
+        $('#input').css('backgroundImage', 'url(./images/2.png)');
+        $('.input-wangfan').hide();
+        $('.input-dancheng').show();
+        })
+    $('.wangfanname').mouseenter(function () {
+        $('#input').css({'backgroundImage':'url(./images/1.png)'});
+        $('.input-wangfan').show();
+        $('.input-dancheng').hide();
+        })  
+</script>

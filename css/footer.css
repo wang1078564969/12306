@@ -1,18 +1,17 @@
 .footer{
-    height: 250px;;
     width: 100%;
-    min-width: 1300px;;
+    min-width: 1300px;
+    height: 300px;
     margin: 0 auto;
-    overflow: scroll;
-    background: url(../images/di.png) top center;
+    background: url(../images/di.png) top center no-repeat;
 }
 .footer-bor{
+    padding-top:175px;
     text-align: center;
     color:#404040;
-    width: 550px;
-    margin: 153px auto 0 auto;
+    margin:  0 auto;
 }
 .a>a{
-    line-height: 3em;
+    line-height: 2.5em;
     font-size: 15px;
 }
