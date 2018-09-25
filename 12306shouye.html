@@ -20,11 +20,15 @@
                 $('#input').css('backgroundImage', 'url(./images/2.png)');
                 $('.input-wangfan').hide();
                 $('.input-dancheng').show();
+                $('#wangfant').hide();
+                $('#danchengt').show();
             })
             $('.wangfanname').mouseenter(function () {
                 $('#input').css({ 'backgroundImage': 'url(./images/1.png)' });
                 $('.input-wangfan').show();
                 $('.input-dancheng').hide();
+                $('#wangfant').show();
+                $('#danchengt').hide();
             })  
         })
     </script>
@@ -117,7 +121,6 @@
                 <p>往 返</p>
                 <i class=""></i>
             </div>
-            
         </div>
         <div class="input-z">
             <!-- 单程开始 -->
@@ -205,7 +208,7 @@
             <!-- 往返结束 -->
         </div>
         <!-- 提交按钮 -->
-        <div class="tijiao"><!--单程提交 -->
+        <div class="tijiao" id="danchengt"><!--单程提交 -->
             <p>
                 <label for="putong">普通
                     <input type="radio" checked name="tijiao" id="putong" form="dancheng">
@@ -217,7 +220,7 @@
             <label for="anniu">提 交
                 <input type="image" src="./images/12.png" form="dancheng" name="submit" id="anniu"></label>
         </div>
-        <!-- <div class="tijiao" id="wangfan">
+        <div class="tijiao" id="wangfant">
             <p>
                 <label for="putong">普通
                     <input type="radio" checked name="tijiao" id="putong" form="wangfan">
@@ -226,10 +229,9 @@
                     <input type="radio" name="tijiao" id="xuesheng" form="wangfan">
                 </label>
             </p>
-            <label for="anniu">提交
+            <label for="anniu">提 交
                 <input type="image" src="./images/12.png" form="wangfan"  name="submit" id="anniu"></label>  
-        </div> -->
-        <!-- 提交结束    -->
+        </div> 
     </div>
     <!-- input提交查询结束 -->
     <!-- 尾部 -->
